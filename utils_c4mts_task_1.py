@@ -178,7 +178,7 @@ val_png_files = png_files[split_index:]
 # Move the corresponding TXT files for training set
 for png_file in train_png_files:
     txt_file = os.path.splitext(png_file)[0] + '.txt'
-    source_png_path = os.path.join(data_folder, png_file)
+    source_png_path = os.path.join(data_folder, '/images/', png_file)
     source_txt_path = os.path.join(data_folder, txt_file)
     destination_png_path = os.path.join(train_folder, png_file)
     destination_txt_path = os.path.join(train_folder, txt_file)

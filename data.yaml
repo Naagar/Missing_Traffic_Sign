@@ -1,0 +1,14 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# class_labels = ['gap-in-median', 'left-hand-curve', 'right-hand-curve', 'side-road-left']  # Replace with your class labels
+# class_ids = [0, 1, 2, 3]  # Replace with your corresponding class IDs
+path: ./  # dataset root dir
+train: train8  # train images (relative to 'path') 128 images
+val: val8  # val images (relative to 'path') 128 images
+# test: task1test # test images (optional)
+
+# Classes (4 classes)
+names:
+  0: gap-in-median
+  1: left-hand-curve
+  2: right-hand-curve
+  3: side-road-left
