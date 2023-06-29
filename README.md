@@ -12,9 +12,13 @@ The C4MTS challenge of Categorizing Missing Traffic Signs provides 200 real scen
 
 ### Task 1:
 
-To train the detection model or test using pretrained weights for YoloV8 detection model run the ` python m4mts_task_1.py
-`
+To train the detection model or test using pretrained weights for YoloV8 detection model run the:
 
+` python m4mts_task_1.py
+`
+or 
+`cls_c4mts_task_2.py
+`
 
 
 ### Task 2:
